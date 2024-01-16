@@ -30,6 +30,7 @@ Future enhancements:
 * Modify Implementation to support XAML syntax for PowerTreeView control and perhaps Folder and Item Templates
 * Variety of bug fixes and optimization
 * Build in support for those users who only want to use the UI component of the control and not the full microservice
-<img width="185" alt="PowerTreeFolderMenu" src="https://github.com/str37/PowerTree/assets/44349896/a73d0c8c-b806-4ba8-8a71-231b0dc8df63">
-<img width="198" alt="PowerTreeItemMenu" src="https://github.com/str37/PowerTree/assets/44349896/1f652860-d9bd-4272-9f36-72950bcfa1d3">
- 
+
+ <img width="198" alt="PowerTreeItemMenu" src="https://github.com/str37/PowerTree/assets/44349896/45aa63eb-c11a-466f-a898-605279c264b5">
+
+<img width="185" alt="PowerTreeFolderMenu" src="https://github.com/str37/PowerTree/assets/44349896/b273d2d4-7584-4446-a83c-c5e8d215db19">

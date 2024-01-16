@@ -1,0 +1,34 @@
+﻿    //   Nuget Package Manager Console Commands
+    //      Be sure to make the PCS.Logic the default project
+    //
+    //     Enable-Migrations  - Creates the initial Configuration.cs file
+    //
+    //     Add-Migration <somename> - Creates a new migration class
+    //
+    //     Update-Database  - Applies the new migration classes
+    //
+    //     Get-Migrations - Displays migrations that have been applied to target database
+    //
+    //     -Verbose - use this to help troubleshoot.
+    //     
+    //     Clean/Compile both Logic & Startup project before using these commands
+    //       also be sure to Clean/Compile after generating a Migration.
+    //
+
+=========== Initial Create ===================
+***** WARNING:  You may need to rebuild PowerTree.Maui and Startup project before each of these commands ***********
+
+
+///  DONT USE THIS:     Add-Migration InitialCreate -Context PowerTree.Maui.PTContext -OutputDir PTMigrations -Verbose
+//  Update-Database -Context PowerTree.Maui.PTContext  -Project PowerTree.Maui -Verbose
+
+
+Add-Migration InitialCreate -Context PowerTree.Maui.PTContext 
+
+
+Update-Database -Context PowerTree.Maui.PTContext 
+
+
+================ Using Developer Command line from the CS.MAUI project directory ======================================
+
+dotnet publish -f net8.0-windows10.0.19041.0 -c Release -p:RuntimeIdentifierOverride=win10-x64 -p:WindowsPackageType=None  
